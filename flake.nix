@@ -15,6 +15,14 @@
 	description = "java with maven dev environment";
 	path = ./java-gradle;
       };
+      python = {
+	description = "basic python dev environment with basedpyright";
+	path = ./python;
+      };
+      gleam = {
+	description = "basic gleam dev environment";
+	path = ./gleam;
+      };
     };
   };
 }
