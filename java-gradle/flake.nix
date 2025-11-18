@@ -13,7 +13,7 @@
 	pkgs = import nixpkgs {
 	  inherit system overlays;
 	};
-	javaVersion = pkgs.jdk24;
+	javaVersion = pkgs.jdk25;
       in
       {
 	devShells.default = pkgs.mkShell rec {
