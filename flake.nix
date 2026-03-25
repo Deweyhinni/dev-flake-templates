@@ -25,7 +25,7 @@
       };
       comprog = {
 	description = "flake with dev tools for practicing competitive programming";
-	path = ./comprog/;
+	path = ./comprog;
       };
     };
   };
