@@ -23,6 +23,10 @@
 	description = "basic gleam dev environment";
 	path = ./gleam;
       };
+      comprog = {
+	description = "flake with dev tools for practicing competitive programming";
+	path = ./comprog/;
+      };
     };
   };
 }
